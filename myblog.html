@@ -1,51 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My blog</title>
+    <meta charset="UTF-8" />
+    <title>Dajhonir Josseph C&aacute;ceres p.</title>
+    <link rel="icon" type="images/png" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
-    <div id="container">
-        <div id="cabecera">
-            Prueba
-            <span id="tagline">
-                Esta es una prueba de fuego
-            </span>
+    <header class="header">
+        <div>
+            <figure class="logo">
+                <img src="images/logo_marca Personal.png" alt="Logo personal de Dajhonir josseph C&aacute;ceres padilla" width="200px">
+            </figure>
+            <nav>
+                <ol>
+                    <li>
+                        <a class="link" href="portaolio/portafolio.html">portafolio</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#Experencia">Experiencias</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#Trabajemos">Trabajemos juntos</a>
+                    </li>
+                </ol>
+            </nav>
         </div>
-        <div id="post">
-            <h1>
-                Este es el titulo atractivo del post
-            </h1>
-            <p>
-                Este este es un ejemplo de p&aacute;rrafo que pienso utilizar para verificar si git funciona en el curso de git y github respectivamente.
-            </p>
-            <p>
-                Esto es un nuevo p&aacute;rrafo que voy agregar para ver la opci&oacute;n de integraci&oacute;n entre dos ramas distintas, para este blog.
-            </p>
-            <p id="parrafo">
-                Esta cambio puede ser magnifico, es bueno experimentar una nueva forma de adquirir conocimiento mediante el estudio.
-            </p>
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/67gGUf1-LCk" allowfullscreen>
-                </iframe>
+    </header>
+    <section class="hero">
+        <h1>
+            Hola! soy <strong>Dajhonir Josseph C&aacute;ceres Padilla</strong> <br /><strong>Analista de desarrollo de
+                sistema de informaci&oacute;n</strong><br /> apasionado a ayudar y aportar</br> en soluciones para la automatizaci&oacute;n de procesos.
+        </h1>
+        <!--  <img src="images/Hero.jpg" alt="Imagen principal" width="350px" height="250px"> -->
+    </section>
+    <section id="Portafolio" class="portafolio">
+        <h2>Portafolio (Proyectos Destacados)</h2>
+        <article class="project">
+            <div class="project-details">
+                <h3 class="project-title">Proyecto prueba Coworking</h3>
+                <h6 class="project-course">Angular 8</h6>
+                <h6 class="project-course">Sql </h6>
+                <h6 class="project-course">Csharp (C#)</h6>
+                <p class="project-date"><small><strong>Fecha:</strong> 10/03/2020</small></p>
+                <p class="project-url"><small><strong>Direcci&oacute;n donde puede ver el proyecto:</strong>
+                        www.djcpfactorysoftware.net </small></p>
+                <p class="project-description">
+                    Es un proyecto en el cual se trabajo durante varios meses para mostrar diseño y arquitectura de un sistema de informaci&oacute;n, en una version base para la contrucci&oacute;n de futuros proyectos.
+                </p>
             </div>
 
-            <a href="#">Link para nuevo enlace...</a>
-        </div>
-    </div>
-    <div>
-        <footer>
+            <figure class="project-imageContaier1">
+                <img class="project-image" src="images/codigo.png" alt="imagen codigo" width="650px">
+            </figure>
+
+        </article>
+    </section>
+    <section id="Experencia">
+        <h2>
+            M&aacute;s Acerca de mi experiencia...
+        </h2>
+        <article>
+            <figure class="project-imageContaier">
+                <img class="project-image" src="images/Developers.jpg" alt="imagen sobre experiencias" width="650px">
+            </figure>
+            <h3>Empresas donde trabaj&eacute; :</h3>
             <p>
-                © 2020 Josseph C&aacute;ceres P.
+                En las empresas donde trabaje pude desarrollar algunas de mis destrezas y aprender acerca de lenguaje de programcai&oacute;n como c#, visualbasic, Angular , sql trabajando con motores de base de datos sqlserver y Mysql.
             </p>
-        </footer>
-    </div>
+
+            <span><a  class="link"  href="#">Unac</a></span><br />
+            <span><a class="link"  href="#">Aplisalud</a></span><br />
+            <span><a class="link"  href="#">Federal sas</a></span><br />
+            <span><a  class="link"  href="#">Doctus sas</a></span><br />
+
+        </article>
+    </section>
+    <section id="contactos" class="contact">
+        <form action="#" class="form-email">
+            <h3>¿Creamos algo juntos?</h3>
+            <input type="text" placeholder="d&eacute;jame tu email" id="email">
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <footer class="footer">footer</footer>
 </body>
 
 </html>
