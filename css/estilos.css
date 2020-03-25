@@ -1,6 +1,6 @@
 .header {
     /*   background-color: #2D4068; */
-    background-color: #FCFCFC;
+    background-color: #ECECEC;
     color: white;
 }
 
@@ -11,6 +11,7 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
 }
 
 h1,
@@ -25,16 +26,36 @@ h6 {
 }
 
 h1 {
-    font-size: 30px;
-    line-height: 150%;
+    font-size: 35px;
+    line-height: 1.5;
     letter-spacing: -.2px;
+    color: white;
+    margin: 100px 540px 70px 30px;
+}
+
+h1 strong {
+    color: #026fff;
 }
 
 .hero {
     height: 300px;
     background-image: url('../images/Hero.jpg');
+    background-color: #1b2127;
     background-size: 500px 300px;
     background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.portafolio {
+    background: #fafafa;
+}
+
+.project {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
 }
 
 .project-details {
