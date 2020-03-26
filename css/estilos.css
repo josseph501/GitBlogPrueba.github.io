@@ -2,11 +2,48 @@
     /*   background-color: #2D4068; */
     background-color: #ECECEC;
     color: white;
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
 }
 
 .header a {
     color: #304067;
     text-decoration: none;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+    align-items: center;
+}
+
+.header ol li {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu {
+    height: inherit;
+}
+
+figure {
+    margin: 0;
 }
 
 body {
